@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 200" width="1000" height="200" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Ngo Van Long - AI Engineer">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0f2027"/>
+      <stop offset="50%" stop-color="#203a43"/>
+      <stop offset="100%" stop-color="#2c5364"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#43cea2"/>
+      <stop offset="100%" stop-color="#185a9d"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1000" height="200" fill="url(#bg)"/>
+
+  <!-- waves -->
+  <g opacity="0.18" fill="#ffffff">
+    <path d="M0 150 q 125 -40 250 0 t 250 0 t 250 0 t 250 0 v 60 H0 Z">
+      <animateTransform attributeName="transform" type="translate" from="0 0" to="-500 0" dur="9s" repeatCount="indefinite"/>
+    </path>
+  </g>
+  <g opacity="0.10" fill="#43cea2">
+    <path d="M-500 168 q 125 -32 250 0 t 250 0 t 250 0 t 250 0 t 250 0 v 50 H-500 Z">
+      <animateTransform attributeName="transform" type="translate" from="0 0" to="500 0" dur="12s" repeatCount="indefinite"/>
+    </path>
+  </g>
+
+  <!-- text -->
+  <text x="500" y="88" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="46" font-weight="700" fill="#ffffff" letter-spacing="1">Ngô Văn Long</text>
+  <rect x="370" y="108" width="260" height="3" rx="1.5" fill="url(#accent)"/>
+  <text x="500" y="142" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="19" font-weight="500" fill="#cfe8e0" letter-spacing="2">AI Engineer&#160;&#160;|&#160;&#160;LLM &amp; RAG&#160;&#160;|&#160;&#160;Computer Vision on Edge</text>
+</svg>

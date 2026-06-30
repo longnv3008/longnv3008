@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 120" width="1000" height="120" preserveAspectRatio="xMidYMid slice" role="img" aria-label="footer">
+  <defs>
+    <linearGradient id="fbg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#2c5364"/>
+      <stop offset="50%" stop-color="#203a43"/>
+      <stop offset="100%" stop-color="#0f2027"/>
+    </linearGradient>
+  </defs>
+  <rect width="1000" height="120" fill="url(#fbg)"/>
+  <g opacity="0.16" fill="#ffffff">
+    <path d="M0 40 q 125 40 250 0 t 250 0 t 250 0 t 250 0 v -60 H0 Z">
+      <animateTransform attributeName="transform" type="translate" from="0 0" to="-500 0" dur="10s" repeatCount="indefinite"/>
+    </path>
+  </g>
+  <g opacity="0.10" fill="#43cea2">
+    <path d="M-500 28 q 125 36 250 0 t 250 0 t 250 0 t 250 0 t 250 0 v -50 H-500 Z">
+      <animateTransform attributeName="transform" type="translate" from="0 0" to="500 0" dur="13s" repeatCount="indefinite"/>
+    </path>
+  </g>
+</svg>

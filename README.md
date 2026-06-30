@@ -7,7 +7,7 @@
 <!-- ======================= HEADER ======================= -->
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=200&section=header&text=Ng%C3%B4%20V%C4%83n%20Long&fontColor=ffffff&fontSize=46&fontAlignY=38&desc=AI%20Engineer%20%7C%20LLM%20%26%20RAG%20%7C%20Computer%20Vision%20on%20Edge&descAlignY=58&descSize=18&reload=2" width="100%" />
+<img src="https://raw.githubusercontent.com/longnv3008/longnv3008/main/.github/assets/banner.svg" alt="Ngô Văn Long — AI Engineer" width="100%" />
 
 <a href="https://github.com/longnv3008">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3200&pause=900&color=2C5364&center=true&vCenter=true&width=640&lines=AI+Engineer+%E2%80%94+prototype+to+production;LLM+apps%3A+RAG+%26+multi-agent+systems;Real-time+Computer+Vision+on+Edge+AI;%F0%9F%8F%86+1st+Prize+%40+Samsung+SDS+AI+Hackathon" alt="Typing SVG" />
@@ -174,6 +174,6 @@ class NgoVanLong:
 
 > *"Taking NLP & Computer Vision from prototype to production."*
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:2c5364,50:203a43,100:0f2027&height=120&section=footer" width="100%" />
+<img src="https://raw.githubusercontent.com/longnv3008/longnv3008/main/.github/assets/footer.svg" alt="footer" width="100%" />
 
 </div>
