@@ -1,0 +1,31 @@
+# GitHub Profile Summary Cards
+# Đặt tại: .github/workflows/summary-cards.yml  (repo longnv3008/longnv3008)
+# Sinh các thẻ thống kê SVG tĩnh vào nhánh "profile-summary-card-output"
+# -> không bao giờ bị 503 / rate-limit như github-readme-stats.
+
+name: GitHub Profile Summary Cards
+
+on:
+  schedule:
+    - cron: "0 0 * * *"   # cập nhật mỗi ngày
+  workflow_dispatch:        # chạy tay
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    name: generate-cards
+    steps:
+      - uses: actions/checkout@v4
+      - uses: vn7n24fzkq/github-profile-summary-cards@release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          USERNAME: ${{ github.repository_owner }}
+          BRANCH_NAME: profile-summary-card-output

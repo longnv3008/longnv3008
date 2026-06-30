@@ -7,7 +7,7 @@
 <!-- ======================= HEADER ======================= -->
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=200&section=header&text=Ng%C3%B4%20V%C4%83n%20Long&fontColor=ffffff&fontSize=46&fontAlignY=38&desc=AI%20Engineer%20%7C%20LLM%20%26%20RAG%20%7C%20Computer%20Vision%20on%20Edge&descAlignY=58&descSize=18" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=200&section=header&text=Ng%C3%B4%20V%C4%83n%20Long&fontColor=ffffff&fontSize=46&fontAlignY=38&desc=AI%20Engineer%20%7C%20LLM%20%26%20RAG%20%7C%20Computer%20Vision%20on%20Edge&descAlignY=58&descSize=18&reload=2" width="100%" />
 
 <a href="https://github.com/longnv3008">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3200&pause=900&color=2C5364&center=true&vCenter=true&width=640&lines=AI+Engineer+%E2%80%94+prototype+to+production;LLM+apps%3A+RAG+%26+multi-agent+systems;Real-time+Computer+Vision+on+Edge+AI;%F0%9F%8F%86+1st+Prize+%40+Samsung+SDS+AI+Hackathon" alt="Typing SVG" />
@@ -128,8 +128,12 @@ class NgoVanLong:
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=longnv3008&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="stats" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=longnv3008&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="top langs" />
+<!-- Thẻ thống kê sinh tĩnh bằng GitHub Action (không bị rate-limit như github-readme-stats) -->
+<img src="https://raw.githubusercontent.com/longnv3008/longnv3008/profile-summary-card-output/tokyonight/3-stats.svg" alt="stats" />
+<img src="https://raw.githubusercontent.com/longnv3008/longnv3008/profile-summary-card-output/tokyonight/1-repos-per-language.svg" alt="repos per language" />
+
+<img src="https://raw.githubusercontent.com/longnv3008/longnv3008/profile-summary-card-output/tokyonight/2-most-commit-language.svg" alt="most commit language" />
+<img src="https://raw.githubusercontent.com/longnv3008/longnv3008/profile-summary-card-output/tokyonight/4-productive-time.svg" alt="productive time" />
 
 <br/>
 
